@@ -26,7 +26,7 @@ browser.add_cookie({'name' : 'mid','value' : 'WWydwgAEAAGOjRGWyzGW0rCyAb5W', 'do
 while(True):
     i=0
     for username in list_of_usernames:
-        i++
+        i+=1
         browser.get("https://www.instagram.com/"+list_of_usernames[i]+"/")
         
 
